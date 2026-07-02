@@ -3,7 +3,7 @@
 Exploring 8,800+ Netflix titles with SQL to uncover content, catalog, and release trends — from raw data to 20 answered business questions.
 
 <p align="center">
-  <img src="" alt="logo.png" width="300"/>
+  <img src="" alt="[logo.png](https://github.com/kaustubhbe07/Netflix-SQL-Data-Analysis/blob/main/logo.png)" width="300"/>
 </p>
 
 ## 📊 Dataset
