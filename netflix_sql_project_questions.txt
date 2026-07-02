@@ -1,0 +1,22 @@
+Netflix Dataset - SQL Project Business Questions
+
+1. Content Breakdown: Count the total number of Movies vs. TV Shows.
+2. Target Audiences: Find the most common content rating for Movies and TV Shows separately.
+3. Release Filters: List all movies released in a specific year (e.g., 2020).
+4. Global Reach: Find the top 5 countries with the most overall content on Netflix.
+5. Data Quality Check: Find all content where the director is missing (NULL values).
+6. Runtime Analysis: Identify the longest movie. (Hint: You will need to extract the numerical value from the duration string column).
+7. Binge-Worthy: List all TV shows with more than 5 seasons.
+8. Director Search: Find all the movies or TV shows directed by 'Rajiv Chilaka'.
+9. Genre Sifting: List all movies that are classified exactly as or include "Documentaries" in their genre list.
+10. Suspense Specialists: Identify the top 5 directors who have directed the most movies in the "Thrillers" or "TV Mysteries" genres.
+11. Content Moderation: Categorize content based on the presence of the keywords 'kill' and 'violence' in the description field. Label content containing these keywords as 'Bad' and all other content as 'Good'. Count how many items fall into each category.
+12. Recent Additions: Find the total number of content items added in the last 5 years. (Hint: Convert the date_added string into a standard SQL Date format first).
+13. Genre Popularity: Count the total number of content items in each individual genre. (Note: The listed_in column contains multiple comma-separated genres per row that must be split).
+14. Regional Trends: Calculate the total yearly content release count for India and return the top 5 years with the highest volume of releases.
+15. Actor Trajectory: Find how many movies actor 'Salman Khan' appeared in over the last 10 years.
+16. Local Legends: Find the top 10 actors who have appeared in the highest number of movies produced in India.
+17. The Classic Vault: Find all titles where the release_year and the year it was date_added to Netflix are more than 10 years apart (identifying classic movies added to the platform recently).
+18. The Co-Star Network: Identify the pair of actors who have appeared in the most movies together. (Hint: This requires splitting the cast column and performing a self-join).
+19. Content Drop Strategies: Identify the most popular month for adding new content to the platform globally.
+20. Platform Growth: Calculate the rolling cumulative total of content added to Netflix month-by-month over the dataset's timeline using Window Functions.
